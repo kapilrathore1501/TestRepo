@@ -1,0 +1,16 @@
+{
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.emilock.dpc/com.emilock.dpc.receiver.AdminReceiver",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://drive.google.com/file/d/1_ii0HJ7NDWNSUo9AFjDlvJrYimT2sDsv/view?usp=sharing",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "_Ycb7vwpfsg4FekQI47rFN2g4VurQb4VBa2WJ6ocuts",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM": "_WBWT6I8uWXBgnfFKI2LVmm02xo8mUDuSRdETcUoqec",
+  "android.app.extra.PROVISIONING_SKIP_ENCRYPTION": true,
+  "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
+  "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
+    "server_endpoint": "https://api.lender.example.com/v1/dpc",
+    "organization_name": "Apex Microfinance EMI Security",
+    "grace_period_hours": 48,
+    "enforce_factory_reset_block": true,
+    "enforce_safe_boot_block": true,
+    "enforce_debug_features_block": true
+  }
+}
